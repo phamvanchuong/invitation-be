@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <script src="/js/home.js"></script>
+    <title>PVC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="question" id="question">
+          THỨ 7 TUẦN NÀY ANH CÓ THỂ MỜI EM ĐI UỐNG NƯỚC ĐƯỢC KHÔNG?
+        </div>
+        <div class="answer">
+          <form id="form">
+            <div><input type="text" id="input" /></div>
+            <div>
+              <div class="next" id="next" onclick="nextClick()">Tiếp</div>
+              <div class="send" id="send" onclick="confirmClick()">
+                Xác nhận
+              </div>
+            </div>
+          </form>
+          <button class="no" id="no" onclick="noClick()">Không</button>
+          <button class="yes" id="yes" onclick="yesClick()">Có</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
